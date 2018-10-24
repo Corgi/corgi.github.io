@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
+ .page_caption,.page_title{
+    font-family:'Merriweather Sans',sans-serif
+}
+.page_caption,.step_out,h2,h3{
+    font-style:italic
+}
+.page_title{
+    font-size:1.7em;
+    font-weight:700
+}
+.page_caption{
+    text-align:center;
+    font-size:1.5em
+}
+.step_out{
+    margin-left:40px
+}
+.centerme{
+    display:block;
+    text-align:center;
+    margin:1em auto;
+    border-radius:5px
+}
+.spaceme{
+    margin:4em auto;
+    width:75%
+}
+img.centerme{
+    max-width:700px;
+    height:auto
+}
+p{
+    font-size:1.2em
+}
+h2,h3{
+    font-variant:small-caps;
+    font-size:3em
+}
+h3{
+    font-size:2em
+}
+.hidden {
+    display:none;
+}
