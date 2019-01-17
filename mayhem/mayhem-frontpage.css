@@ -69,14 +69,14 @@ div.img_counter_page a, a.current {
 }
 #event2 {
 	width: 251px;
-	background: url('http://www.mayhemcomics.com/documents/filelibrary/homepage_images/events2_370FE5E2DCC12.png') 0 0 no-repeat;
+	background: url('http://corgi.github.io/mayhem/events2_370FE5E2DCC12.png') 0 0 no-repeat;
 }
 #event2:hover {
 	background-position: 0 -60px;
 }
 #event3 {
 	width: 260px;
-	background: url('http://www.mayhemcomics.com/documents/filelibrary/homepage_images/events3_276EA25426333.png') 0 0 no-repeat;
+	background: url('http://corgi.github.io/mayhem/events3_276EA25426333.png') 0 0 no-repeat;
 }
 #event3:hover {
 	background-position: 0 -60px;
