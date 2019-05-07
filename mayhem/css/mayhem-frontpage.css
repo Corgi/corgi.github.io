@@ -113,6 +113,17 @@ div.cbTitle h1 {
   margin: 1em auto;
 }
 
+#connectwithus a {
+	display: block;
+	text-align: center;
+	margin: 1em auto;
+}
+
+#connectwithus a img {
+	width: 262px;
+	height: 85px;
+}
+
 .spaceme {
   margin: 4em auto;
   width: 75%;
