@@ -2,9 +2,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style type="text/css">@import url('https://corgi.github.io/mayhem/mayhem-subpage.css');</style>
 
-<iframe src ="test.html" style=" width:100%; height:auto;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<script>
+    $(function(){
+      $("#DivContent").load("test.html"); 
+    });
+    </script>
+
+    <div id="DivContent"></div>
 <!--------------------- BODY ---------------------------------->
 <div class="yeBody">
   <div class="yeHead">
