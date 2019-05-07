@@ -1,0 +1,171 @@
+@import "https://fonts.googleapis.com/css?family=Bangers";
+@import 'https://fonts.googleapis.com/css?family=Merriweather+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+#bgHome {
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/mayhem/img/jbydfdU.png') 50% 0 no-repeat;
+  min-height: 750px;
+  padding-bottom: 24px;
+}
+
+/*** Rotating Banner ***/
+div.img_counter_page a, a.current {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/** Core Block ***/
+.cb {
+  float: left;
+  width: 32.33% !important;
+  margin: .5%;
+  background: url('http://www.mayhemcomics.com/documents/filelibrary/homepage_images/column_bg_5DE297C61B2CB.png') repeat-x;
+}
+
+#cbWrap {
+  margin: 145px 0 0 2px;
+  min-height: 371px;
+  padding: 0;
+}
+
+/*** Narrow Banners ***/
+.homepageAd {
+  position: absolute;
+  top: 370px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  height: 125px;
+}
+
+.floatLeft {
+  margin-left: 0;
+  left: 0;
+}
+
+.floatLeft img {
+  float: left;
+}
+
+.floatRight {
+  display: none;
+}
+
+.event {
+  height: 60px;
+  float: left;
+}
+
+#event1 {
+  width: 365px;
+}
+
+#event2 {
+  width: 251px;
+  background: url('https://raw.githubusercontent.com/Corgi/corgi.github.io/master/mayhem/events2_370FE5E2DCC12.png') 0 0 no-repeat;
+}
+
+#event2:hover {
+  background-position: 0 -60px;
+}
+
+#event3 {
+  width: 260px;
+  background: url('https://raw.githubusercontent.com/Corgi/corgi.github.io/master/mayhem/events3_276EA25426333.png') 0 0 no-repeat;
+}
+
+#event3:hover {
+  background-position: 0 -60px;
+}
+
+/*** Uncomment to enable bottom banner
+
+#adWrap {
+    border:10px solid pink !important;
+    width:10px;
+    height:10px;
+    background:red;
+}
+***/
+/*** Generic Styling ***/
+div.cbTitle h1 {
+  border: 0;
+  border-bottom: 2px solid black;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.centerme {
+  display: block;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.spaceme {
+  margin: 4em auto;
+  width: 75%;
+}
+
+/****** Countdown Clock ******/
+#cbWrap {
+  margin: 270px 0 0 2px;
+}
+
+.floatRight {
+  display: inline;
+  left: 0;
+  margin-left: 0;
+  margin-top: 70px;
+}
+
+.timeWrap {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 140px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background: url('https://raw.githubusercontent.com/Corgi/corgi.github.io/master/mayhem/images/5-7-19-mothersday.png') center center no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.time-to {
+  text-align: center;
+  font-family: Bangers;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#clock {
+  font-size: 50px;
+  color: red;
+  margin-top: 25px;
+  display: block;
+}
+
+#weeklyevents h2 {
+	font-family: "merriweather sans", Arial, sans-serif;
+  color: #fff;
+  border-bottom: 1px dotted #ada1d3;
+  width: 100%;
+  display: block;
+}
