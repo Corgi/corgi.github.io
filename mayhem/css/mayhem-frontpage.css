@@ -22,6 +22,10 @@ div.img_counter_page a, a.current {
   border-radius: 50%;
 }
 
+div.img_counter_page a:hover {
+    border: 1px solid #fff;
+}
+
 /** Core Block ***/
 .cb {
   float: left;
