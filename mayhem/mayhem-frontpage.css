@@ -141,6 +141,7 @@ div.cbTitle h1 {
 	bottom: 0;
 	position: absolute;
 	width: 100%;
+	background:url('https://raw.githubusercontent.com/Corgi/corgi.github.io/master/mayhem/5-7-19-mothersday.png') center center no-repeat;
 }
 .time-to {
 	text-align: center;
