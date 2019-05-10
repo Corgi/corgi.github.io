@@ -26,11 +26,36 @@
 * === Global Styles ===
 */
 
-#bgHome {
-  /*  min-height: 750px;
-  padding-bottom: 24px; */
-  /* Testing to see if I can remove these */
-  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/bgHome.png') 50% 0 no-repeat;
+#insideContent * {
+  font-family: 'Merriweather Sans', sans-serif
+}
+
+#bgInside {
+  background-image: url(https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/bg_inside.png);
+}
+
+/*
+* - New Releases widget -
+*/
+
+.dmdNewReleasesWidgetPBPW a img {
+  display: none;
+}
+
+.dmdNewReleasesWidget h2 {
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+.dmdNewReleasesWidgetWeekSelection {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.dmdNewReleasesWidgetPager a {
+  font-size: 1.4em;
 }
 
 .centerme {

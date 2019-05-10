@@ -16,6 +16,13 @@
 * === Core Block ===
 */
 
+#bgHome {
+  /*  min-height: 750px;
+  padding-bottom: 24px; */
+  /* Testing to see if I can remove these */
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/bgHome.png') 50% 0 no-repeat;
+}
+
 .cb {
   float: left;
   width: 32.33% !important;
