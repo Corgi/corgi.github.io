@@ -97,7 +97,10 @@
   /* Adds vertial space */
 }
 
-.floatRight {
+.homepageAd.floatRight {
+    position:absolute;
+    width:980px;
+    height:130px;
   left: 0;
   display: inline;
   margin-top: 70px;
@@ -105,8 +108,6 @@
 }
 
 .timeWrap {
-  position: absolute;
-  bottom: 0;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -115,9 +116,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   /* Vertical-align text */
-  width: 100%;
-  height: 140px;
-  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') center center no-repeat;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') no-repeat;
 }
 
 .time-to {
