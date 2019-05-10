@@ -79,7 +79,7 @@
   visibility: visible;
 }
 
-#navcontainer * {
+#navcontainer ul li a span span {
   font-size: 1.05em;
   font-family: 'Merriweather Sans', sans-serif;
   color: #fff;
