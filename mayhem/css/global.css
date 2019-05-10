@@ -79,11 +79,14 @@
   visibility: visible;
 }
 
-#navcontainer ul li a span span {
+#navcontainer li a span span {
   font-size: 1.05em;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #fff;
   text-align: center;
+}
+
+#navcontainer li a:link, #navcontainer li a:visited, #navcontainer li a:hover, #navcontainer li a:active {
+  color: #fff;
 }
 
 /*
