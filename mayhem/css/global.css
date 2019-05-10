@@ -65,9 +65,18 @@
 #navcontainer li a span,
 #navcontainer li a span:hover,
 #navcontainer li a span span,
+#navcontainer li,
 #navcontainer a {
   background-image: none;
-  background-color: transparent;
+  background: transparent;
+}
+
+#navcontainer li a span {
+  visibility: hidden;
+}
+
+#navcontainer li a span span {
+  visibility: visible;
 }
 
 #navcontainer * {
