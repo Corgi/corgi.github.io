@@ -1,0 +1,45 @@
+/*
+* === Google Fonts ===
+*/
+@import "https://fonts.googleapis.com/css?family=Bangers";
+@import 'https://fonts.googleapis.com/css?family=Merriweather+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+/*
+* === Hacky Fixes ===
+*/
+.headerBox {
+  display: none;
+  /* Hiding the deprecated newsletter and social media buttons */
+}
+
+/* Show the social media buttons again, but not the newsletter */
+/* .headerBox ~ .headerBox {
+  display:block;
+} */
+/* Hide the deprecated forum link in the social media buttons */
+/* .headerBox > .headerTitle a:nth-of-type(n+3) {
+  display:none;
+} */
+
+/*
+* === Global Styles ===
+*/
+
+#bgHome {
+  /*  min-height: 750px;
+  padding-bottom: 24px; */
+  /* Testing to see if I can remove these */
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/bgHome.png') 50% 0 no-repeat;
+}
+
+.centerme {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.spaceme {
+  width: 75%;
+  margin: 4em auto;
+}

@@ -1,0 +1,174 @@
+/****************
+  Styles for the front page of the site
+****************/
+
+/*
+* === Carousel ===
+*/
+
+.img_counter_page a:hover,
+.img_counter_page a.current {
+  border: 1px solid black;
+  /* Making the buttons visible no matter the background color */
+}
+
+/*
+* === Core Block ===
+*/
+
+.cb {
+  float: left;
+  width: 32.33% !important;
+  margin: .5%;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/column_bg_5DE297C61B2CB.png') repeat-x;
+}
+
+#cbWrap {
+  margin: 145px 0 0 2px;
+  /* Allowing space for the local events banner*/
+}
+
+/*
+* === Local Events Banner ===
+*/
+
+.homepageAd.floatLeft {
+  position: absolute;
+  top: 370px;
+  width: 100%;
+}
+
+.floatLeft {
+  left: 0;
+}
+
+.floatRight {
+  display: none;
+}
+
+.event {
+  float: left;
+  height: 60px;
+}
+
+/*
+* - Hover effect -
+*/
+
+#event1 {
+  width: 365px;
+}
+
+#event2 {
+  width: 250px;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/events2_370FE5E2DCC12.png') 0 0 no-repeat;
+}
+
+#event2:hover {
+  background-position: 0 -60px;
+}
+
+#event3 {
+  width: 260px;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/images/events3_276EA25426333.png') 0 0 no-repeat;
+}
+
+#event3:hover {
+  background-position: 0 -60px;
+}
+
+
+/*** Uncomment to enable bottom banner
+
+#adWrap {
+    border:10px solid pink !important;
+    width:10px;
+    height:10px;
+    background:red;
+}
+***/
+
+/*
+* === Limited Time Banner ===
+*/
+
+#cbWrap {
+  margin: 270px 0 0 2px;
+  /* Adds vertial space */
+}
+
+.floatRight {
+  left: 0;
+  display: inline;
+  margin-top: 70px;
+  margin-left: 0;
+}
+
+.timeWrap {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* Vertical-align text */
+  width: 100%;
+  height: 140px;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') center center no-repeat;
+}
+
+.time-to {
+  font-family: Bangers;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#clock {
+  font-size: 50px;
+  display: block;
+  margin-top: 25px;
+  color: red;
+}
+
+/*
+* === Recurring Events & Connect buttons ===
+*/
+
+div.cbTitle h1 {
+  border: 0;
+  border-bottom: 2px solid black;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-right-radius: 10px;
+  /* Styles the headers */
+
+}
+
+#weeklyevents h2 {
+  font-family: 'merriweather sans', Arial, sans-serif;
+  display: block;
+  width: 100%;
+  color: #fff;
+  border-bottom: 1px dotted #ada1d3;
+}
+
+#connectwithus a {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+  /* Styles the Connect buttons */
+}
+
+/* #connectwithus a img {
+  width: 262px;
+  height: 85px;
+} */
+/* Testing to see if I can remove this section */
