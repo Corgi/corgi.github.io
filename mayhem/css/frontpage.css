@@ -98,14 +98,14 @@
 }
 
 .homepageAd.floatRight {
-    position:absolute;
-    width:980px;
-    height:130px;
+  position: absolute;
+  width: 980px;
+  height: 130px;
   left: 0;
-  top:440px;
+  top: 440px;
   display: inline;
   margin-left: 0;
-    background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') no-repeat;
+  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') no-repeat;
 
 }
 
