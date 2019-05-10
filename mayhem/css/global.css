@@ -62,9 +62,19 @@
 * === Fixing the navbar lists ... what the fuck?! ===
 */
 
-#navcontainer li a span, #navcontainer li a span span {
-  background-image:none;
-  background-color:transparent;
+#navcontainer li a span,
+#navcontainer li a span:hover,
+#navcontainer li a span span,
+#navcontainer a {
+  background-image: none;
+  background-color: transparent;
+}
+
+#navcontainer * {
+  font-size: 1.05em;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 /*
