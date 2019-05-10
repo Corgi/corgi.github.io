@@ -58,7 +58,20 @@
   font-size: 1.4em;
 }
 
-.centerme {
+/*
+* === Fixing the navbar lists ... what the fuck?! ===
+*/
+
+#navcontainer li a span, #navcontainer li a span span {
+  background-image:none;
+  background-color:transparent;
+}
+
+/*
+* === Global Content Styling ===
+*/
+
+section a img {
   display: block;
   margin: 1em auto;
   text-align: center;
