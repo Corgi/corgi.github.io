@@ -68,7 +68,7 @@
 #navcontainer li,
 #navcontainer a {
   background-image: none;
-  background: transparent;
+  background: none;
 }
 
 #navcontainer li a span {
