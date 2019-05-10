@@ -93,7 +93,7 @@
 */
 
 #cbWrap {
-  margin: 270px 0 0 2px;
+  margin: 280px 0 0 2px;
   /* Adds vertial space */
 }
 
@@ -102,9 +102,11 @@
     width:980px;
     height:130px;
   left: 0;
+  top:440px;
   display: inline;
-  margin-top: 70px;
   margin-left: 0;
+    background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') no-repeat;
+
 }
 
 .timeWrap {
@@ -116,7 +118,6 @@
   -ms-flex-pack: center;
   justify-content: center;
   /* Vertical-align text */
-  background: url('https://cdn.jsdelivr.net/gh/Corgi/corgi.github.io/mayhem/banners/5-7-19-mothersday.png') no-repeat;
 }
 
 .time-to {
